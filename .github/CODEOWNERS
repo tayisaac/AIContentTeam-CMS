@@ -1,0 +1,4 @@
+# Every change needs the maintainer's review; the safety check and permissions above all.
+*                                        @tayisaac
+/plugins/content-team/hooks/             @tayisaac
+/workspace-template/.claude/             @tayisaac

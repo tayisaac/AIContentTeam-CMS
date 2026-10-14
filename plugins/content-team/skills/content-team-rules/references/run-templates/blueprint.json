@@ -1,0 +1,35 @@
+{
+  "action": "create",
+  "existing_story_id": null,
+  "page_type": "service",
+  "folder": "services/",
+  "slug": "example-slug",
+  "languages": ["en"],
+  "title": { "en": "" },
+  "seo": { "title": { "en": "" }, "description": { "en": "" } },
+  "page_fields": {},
+  "sections": [
+    {
+      "id": "s1",
+      "section": "hero",
+      "component": "hero",
+      "variant": null,
+      "purpose": "One line: what this section must achieve",
+      "fields": {
+        "headline": { "en": "" },
+        "subhead": { "en": "" },
+        "image": { "brief": "What the image should show", "alt": { "en": "" }, "asset": null },
+        "cta": { "label": { "en": "" }, "link": "" }
+      }
+    }
+  ],
+  "component_gaps": [
+    { "section": "", "need": "", "closest_existing": "", "decision": null }
+  ],
+  "assumptions": [],
+  "human_checks": [],
+  "status": "draft",
+  "review": { "result": null, "report": "review.md" },
+  "approved_by": null,
+  "saved": { "story_id": null, "preview": null }
+}

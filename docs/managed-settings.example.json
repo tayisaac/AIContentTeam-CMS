@@ -1,0 +1,21 @@
+{
+  "extraKnownMarketplaces": {
+    "aicontentteam": {
+      "source": { "source": "github", "repo": "tayisaac/AIContentTeam-CMS" },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "content-team@aicontentteam": true
+  },
+  "strictKnownMarketplaces": [
+    { "source": "github", "repo": "tayisaac/AIContentTeam-CMS" }
+  ],
+  "permissions": {
+    "deny": [
+      "mcp__Storyblok__execute_destructive",
+      "mcp__Storyblok__upload_asset",
+      "mcp__Storyblok__upload_asset_finish"
+    ]
+  }
+}
