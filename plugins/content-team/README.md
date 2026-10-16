@@ -6,7 +6,7 @@ from existing components, writes, reviews and saves **unpublished drafts**. Huma
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add tayisaac/AIContentTeam-CMS
+/plugin marketplace add tayisaac/ai-content-cms
 /plugin install content-team@aicontentteam
 ```
 

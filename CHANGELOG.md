@@ -3,6 +3,11 @@
 Each release bumps `version` in `plugins/<plugin>/.claude-plugin/plugin.json`. Users only receive a release
 when that version changes.
 
+## content-team 0.1.8 (2026-10-16)
+- Repository renamed to tayisaac/ai-content-cms: links, install commands, the workspace template's
+  marketplace source and the managed-settings example now use the new name. No behaviour change.
+  The marketplace (aicontentteam) and plugin (content-team) names are unchanged.
+
 ## content-team 0.1.7 (2026-10-14)
 - First release from this marketplace (aicontentteam). Same behaviour as 0.1.6.
 - Wording made host-neutral (Claude Code or Cowork) in the README, folder layout and catalogue format.

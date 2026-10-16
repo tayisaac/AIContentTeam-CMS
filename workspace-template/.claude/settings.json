@@ -1,7 +1,7 @@
 {
   "extraKnownMarketplaces": {
     "aicontentteam": {
-      "source": { "source": "github", "repo": "tayisaac/AIContentTeam-CMS" }
+      "source": { "source": "github", "repo": "tayisaac/ai-content-cms" }
     }
   },
   "enabledPlugins": {

@@ -1,6 +1,6 @@
 {
   "name": "content-team",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A seven-agent CMS content team: plans, designs, writes, reviews, mocks up and saves draft pages in the CMS from existing components. CMS-agnostic, one knowledge folder per project, drafts only, never publishes.",
   "author": {
     "name": "Isaac Tay"
@@ -13,7 +13,7 @@
     "seo",
     "multi-agent"
   ],
-  "homepage": "https://github.com/tayisaac/AIContentTeam-CMS",
-  "repository": "https://github.com/tayisaac/AIContentTeam-CMS",
+  "homepage": "https://github.com/tayisaac/ai-content-cms",
+  "repository": "https://github.com/tayisaac/ai-content-cms",
   "license": "UNLICENSED"
 }

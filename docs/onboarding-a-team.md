@@ -4,7 +4,7 @@ About an hour for the team lead, then about 15 minutes per person.
 
 ## 1. Before you start (maintainer)
 
-- Nothing to grant: `tayisaac/AIContentTeam-CMS` is public, so anyone can install the plugin. Changes still
+- Nothing to grant: `tayisaac/ai-content-cms` is public, so anyone can install the plugin. Changes still
   need the maintainer's approval (branch protection on `main`).
 - Agree who on the team approves and publishes in the CMS.
 - Confirm the team's CMS is supported (Storyblok today). Another CMS needs a CMS variant of the plugin first.
@@ -38,4 +38,4 @@ prompt and the plugin, sign in to Storyblok, run the two checks (agents listed; 
 - Commit `runs/` folders: they are the audit trail of who approved what.
 - Get updates with `/plugin marketplace update aicontentteam` (or turn on auto-update in `/plugin` →
   Marketplaces).
-- Report problems or ideas as issues on `tayisaac/AIContentTeam-CMS`.
+- Report problems or ideas as issues on `tayisaac/ai-content-cms`.

@@ -1,7 +1,7 @@
 # Content Team workspace
 
 This workspace uses the **content-team** plugin (marketplace `aicontentteam`,
-https://github.com/tayisaac/AIContentTeam-CMS). The team plans, designs pages from existing
+https://github.com/tayisaac/ai-content-cms). The team plans, designs pages from existing
 components, writes, reviews, mocks up and saves **unpublished drafts** in the CMS. Humans publish.
 
 - Workflows are the plugin's skills: `setup-project`, `create-page`, `update-page`,
