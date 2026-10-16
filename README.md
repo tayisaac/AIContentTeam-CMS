@@ -37,7 +37,7 @@ CHANGELOG.md                      one section per release
 
 - **A new team:** follow [docs/onboarding-a-team.md](docs/onboarding-a-team.md).
 - **One person, by hand:** in Claude Code run
-  `/plugin marketplace add tayisaac/AIContentTeam-CMS`, then `/plugin install content-team@aicontentteam`.
+  `/plugin marketplace add tayisaac/ai-content-cms`, then `/plugin install content-team@aicontentteam`.
   The repository is public, so no GitHub login is needed to install or update. Only the maintainer can
   change it; everyone else proposes changes through pull requests.
 - **Changing the team:** see [docs/maintaining.md](docs/maintaining.md). All changes go through pull requests.

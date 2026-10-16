@@ -1,7 +1,7 @@
 # [Team name] content workspace
 
 One workspace per development team. It holds the team's projects (one folder per site) and uses the shared
-**content-team** plugin from https://github.com/tayisaac/AIContentTeam-CMS. Do not copy the agents or skills
+**content-team** plugin from https://github.com/tayisaac/ai-content-cms. Do not copy the agents or skills
 in here: they come from the plugin and are updated centrally.
 
 ```
@@ -16,12 +16,12 @@ _example/project.md       a filled-in project.md (fictional brand)
 
 ## First-time setup (each person)
 
-1. Make sure git is installed. The plugin repository tayisaac/AIContentTeam-CMS is public, so no GitHub login
+1. Make sure git is installed. The plugin repository tayisaac/ai-content-cms is public, so no GitHub login
    is needed for the plugin itself (your team's workspace repository may still need one).
    If installs fail on a machine without a GitHub SSH key, set `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`.
 2. Clone this workspace and open Claude Code in it. Accept the trust prompt: Claude Code registers the
    `aicontentteam` marketplace and offers to install `content-team`. If it doesn't, run:
-   `/plugin marketplace add tayisaac/AIContentTeam-CMS` then `/plugin install content-team@aicontentteam`.
+   `/plugin marketplace add tayisaac/ai-content-cms` then `/plugin install content-team@aicontentteam`.
 3. Approve the `Storyblok` server from `.mcp.json`, run `/mcp` and sign in. Choose only your team's spaces,
    with read and write for stories. If the desktop app's sign-in is refused, sign in once from Terminal:
    `claude`, then `/mcp`.
@@ -40,4 +40,4 @@ Copy `_template/` to e.g. `MySite/`, fill in `MySite/project.md` (see `_example/
 
 The plugin is versioned centrally. Get the latest with `/plugin marketplace update aicontentteam`, or turn on
 auto-update in `/plugin` → Marketplaces → aicontentteam. Problems or ideas: open an issue or pull request
-on tayisaac/AIContentTeam-CMS; don't edit the plugin locally.
+on tayisaac/ai-content-cms; don't edit the plugin locally.
